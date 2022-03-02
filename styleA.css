@@ -1,18 +1,65 @@
-.head1{
+header{
 	text-align: center;
 	font-size: 20px;
 	font-family: cursive;
 	color: aliceblue;
 	background-color: dimgrey;
 	margin: 0px;
-    padding: 15px 0px 11px;
-    border: opx;
+    padding: 11px 10px 17px;
+    font-display: block;
     width: 100%;
 	border-radius: 7px;
     height: 70px;
 }
+h1{
+    padding: ;
+}
 
-.head3 {
+
+nav{
+      font-size: 20px;
+    font-family: cursive;
+    color: seagreen;
+    height: 600px;
+    background-color: goldenrod;
+    width: 150px;
+    border-radius: 8px;
+    /*border-color: darkviolet;*/
+    padding: 2px;
+    margin: 3px;
+    float: left;
+}
+nav ul{
+    margin: 2px;
+    padding: 0px;
+     display: block;
+  
+    width: 90%;
+    border-radius: 2%;
+    
+}
+nav ul li {
+  text-shadow: 2px 2px 7px antiquewhite;
+    text-decoration: none;
+    list-style: none;
+    background: saddlebrown;
+    padding: 17px;
+    /* display: block; */
+    /* border: 3px; */
+    /* padding-block: 15px; */
+    /* border-block-color: black; */
+    /* border-block: 2px; */
+    border-radius: 7%;
+    padding-block: 16px;
+    margin-block: 2px 4px;
+    box-shadow: 1px 2px black;
+}
+nav ul li a{
+ text-decoration: none;
+ color: wheat;
+ /*transition: width 3s , height 3s;*/
+}
+.content{
     font-family: unset;
     font-size: 15px;
     color: brown;
@@ -23,24 +70,13 @@
     padding: 1px;
     border-radius: 2%;
 }
-nav{
-      font-size: 20px;
-    font-family: cursive;
-    color: seagreen;
-    height: 600px;
-    background-color: goldenrod;
-    width: 150px;
-    border-radius: 8px;
-    border-color: darkviolet;
-    padding: 15px;
-    margin: 3px;
-    float: left;
-}
 
 .photo {
-    width: 100px;
-    height: 100px;
+    width: 250px;
+    height:250px;
     border-radius: %;
-    margin-left: 30%;
+    margin-left: %;
     border-color: black;
+    padding-top: 20%;
+    float: left;
 }
