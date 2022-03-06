@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html lang>
 <head><title>Contact</title>
 <link rel="stylesheet" type="text/css" href="styleA.css"> 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
 	<header><div><h1>Contact</h1></div></header>
-	
+	<div>
 	<nav>
 		<ul>
 			<li><a href="index.html">home</a></li>
@@ -16,32 +16,35 @@
 		</ul>
 	</nav>
     </div>
-    <div class="home-content">
+    
 	<div class="mail">
      <form action="https://mail.google.com/mail/u/0/#inbox?compose=new">
-     	<ul>
-     		<li>First Name</li>
-     		<input type="text" name="username" >
-     		<li> Middle Name</li>
-     		<input type="text" name="username" >
-     		<li>Last Name</li>
-     		<input type="text" name="username">
-     		<li>Gender</li>
-     		<input type="radio" name="gender" value="male">Male 
+     	
+     		<div>First Name</div>
+     		<div><input type="text" name="username" ></div>
+     		Middle Name
+     		<div><input type="text" name="username" ></div>
+     		Last Name
+     		<div><input type="text" name="username"></div>
+     		Gender
+     		<div><input type="radio" name="gender" value="male">Male 
      		<input type="radio" name="gender" value="Female">Female 
-     		<input type="radio" name="gender" value="others">Others
-            <li>feeed back</li>
-            <textarea name="feed back" class="comment" >Comment Here!</textarea>
-            <li>
-            	<input type="submit" name="">
-            </li>
-     	</ul>
+     		<input type="radio" name="gender" value="others">Others</div>
+     		<div><textarea name="comment" rows="4" cols="20">Comment Here!</textarea></div>
+               <input type="submit" value="submit" onclick="alert('submitted')">
+               
+     	
      </form>
     </div>
-</div>
-     <footer>
-		<p>copy right
+    <div class="info">
+    	<div>Bimal Bhattarai</div>
+    	<div>987654321</div>
+    	<div >Bimalbhattarai2004@gmail.com</div>
+    </div>
+    <footer>
+		<p>copyright
 		</p>
 	</footer>
+     
 </body>
 </html>
